@@ -2,18 +2,44 @@
     <div>
         <Title titleName="Projects"/>
 
-        <p class="text-black text-xl py-4 md:py-8 lg:py-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac finibus diam.
-            Nulla in feugiat libero, vitae feugiat dolor. Phasellus eleifend, mauris at egestas
-            pharetra, urna elit pellentesque nunc, eget scelerisque arcu neque quis risus. Donec
-            quam diam, accumsan non finibus quis, dictum eu orci. Suspendisse auctor, velit nec
-            sollicitudin gravida, massa felis congue augue, vel bibendum tortor urna at ex. Cras
-            accumsan dui at ligula rhoncus pretium. Fusce semper leo sit amet purus euismod
-            tincidunt. Nam ultricies ante sit amet tempor cursus. Quisque sit amet sapien in tortor
-            ultricies tempor. Nunc rutrum mauris ac diam pharetra, id pharetra nisl mollis. Donec
-            sed enim et magna accumsan egestas eu eu neque. Vestibulum porta est nisi, non egestas
-            dolor auctor quis. Nunc iaculis neque sem.
+        <div
+            class="mt-16 flex lg:-mx-32 lg:px-2  flex-row gap-4 flex-wrap justify-center align-middle">
 
-        </p>
+            <ProjectCard
+                v-for="project in projects"
+                :key="project.title"
+                v-bind:project-spec="project"
+            />
+
+        </div>
     </div>
 </template>
+<script>
+
+const projects = [
+    {
+        "title": "Coming soon",
+        "content": ["This project is the most ambitious one so far.", "All I can tell you so far is that it combines audio analysis, video generation, background workers in web services.", "Stay tuned for future announcements later this year!"],
+        "year": "2021"
+    },
+    {
+        "title": "Personal website",
+        "content": ["I had never been fond of front-end development. That is until I discovered what a modern stack looks like!", "This personal website was the perfect opportunity to take a shot at Nuxt & Tailwind."],
+        "year": "2021"
+    },
+    {
+        "title": "Scikit-learn Sprint of the Decade",
+        "content": ["At the end of January 2020, I participated in a 3-days scikit-learn sprint. I met nice people there and contributed to one of the most important packages in the PyData ecosystem.", "My contributions were quite diverse: bug fixes, unit tests improvements & refactoring."],
+        "year": "2020",
+        "link": "https://scikit-learn.fondation-inria.fr/paris-sprint-of-the-decade-happy-birthday-scikit-learn/",
+        "name": "Event website"
+    },
+]
+export default {
+    data() {
+        return {
+            projects,
+        }
+    },
+}
+</script>

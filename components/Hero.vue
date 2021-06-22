@@ -10,7 +10,7 @@
         <div
             class="text-left max-w-7xl mx-auto relative px-4 py-24 sm:px-6 sm:py-32 lg:py-48 lg:px-32">
             <h1 class="text-4xl text-white font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                <p>Hi,</br>I am <span class="text-green-400">Alex</span>.</p>
+                Hi,<br/>I am <span class="text-green-400">Alex</span>.
             </h1>
             <p class="mt-6 max-w-lg text-xl text-green-100 sm:max-w-3xl">
                 I am a data scientist & software engineer based in Lyon (FR).

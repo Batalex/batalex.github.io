@@ -1,10 +1,8 @@
 <template>
     <div class="bg-white overflow-hidden">
         <Hero />
-
         <div
             class="text-left max-w-7xl mx-auto relative px-4 pt-16 sm:px-6 sm:pt-24 lg:pt-32 lg:px-32 ">
-
             <div class="hidden lg:block lg:absolute lg:inset-0 lg:h-full lg:w-full mix-blend-multiply z-0">
                 <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
                     <svg class="absolute top-12 left-full transform translate-x-32" width="404"
@@ -52,9 +50,8 @@
             <div class="relative z-10">
                 <About />
 <!--                <Experiences />-->
-<!--                <Projects />-->
+                <Projects />
             </div>
-<!--            <Contact />-->
 
         </div>
         <footer class="bg-white">
@@ -68,7 +65,6 @@
                 </p>
             </div>
         </footer>
-
     </div>
 
 
