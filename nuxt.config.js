@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'batalex',
+        title: 'Alex Batisse',
         htmlAttrs: {
             lang: 'en'
         },
@@ -31,11 +31,19 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/tailwindcss
         '@nuxtjs/tailwindcss',
+        '@nuxtjs/fontawesome'
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [],
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {}
+    build: {},
+
+    fontawesome: {
+        icons: {
+            solid: ['faEnvelope'],
+            brands: ["faGitlab", "faGithub"]
+        }
+    }
 }
