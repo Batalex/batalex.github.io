@@ -5,6 +5,7 @@ on: [ push, pull_request ]
 jobs:
     cd:
         runs-on: ${{ matrix.os }}
+        if: contains( github.ref, 'main')
 
         strategy:
             matrix:
