@@ -2,7 +2,7 @@
     <div
         class="bg-white sm:max-w-sm border border-indigo-100 overflow-hidden shadow-md rounded-lg divide-y divide-gray-200 hover:shadow-xl md:transition">
         <div class="px-4 py-5 sm:px-6">
-            <h3 class="text-black text-xl font-bold tracking-normal">{{ projectSpec.title }}</h3>
+            <h3 class="text-black text-lg md:text-xl font-bold tracking-normal">{{ projectSpec.title }}</h3>
             <span class="inline text-sm">{{ projectSpec.year }}</span>
 
         </div>
