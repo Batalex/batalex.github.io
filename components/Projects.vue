@@ -3,7 +3,7 @@
         <Title titleName="Projects"/>
 
         <div
-            class="mt-16 flex lg:-mx-32 lg:px-2 flex-row gap-4 flex-wrap justify-center align-middle">
+            class="mt-16 flex lg:-mx-32 lg:px-2 flex-row sm:gap-4 flex-wrap justify-center align-middle">
 
             <ProjectCard
                 v-for="project in projects"
