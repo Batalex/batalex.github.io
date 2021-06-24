@@ -3,7 +3,7 @@
         <div class="absolute inset-0">
             <img alt="Architectural abstract pattern"
                  class="h-full w-full object-cover"
-                 src="https://images.unsplash.com/photo-1615307250409-be3bc317121c"/>
+                 src="https://images.unsplash.com/photo-1615307250409-be3bc317121c?w=1080"/>
             <div
                 class="absolute inset-0 bg-gradient-to-r from-purple-800 to-indigo-700 mix-blend-multiply"/>
         </div>
