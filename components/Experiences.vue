@@ -57,7 +57,7 @@ const timeline = [
         subPhases: [
             {
                 title: "Software Engineer",
-                content: "I was part of the Business Intelligence & Big Data team in charge of designing and building a production-ready data science platform for training and deploying models. I worked on several projects with full-fledged data scientists, involving banking information (fraud detection, cheque recovery prediction)",
+                content: "I was part of the Business Intelligence & Big Data team in charge of designing and building a production-ready data science platform for training and deploying models. I worked on several projects with full-fledged data scientists, involving banking information (fraud detection, cheque recovery prediction).",
                 startDate: "Jan. 2017"
 
             },
