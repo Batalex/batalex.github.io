@@ -3,29 +3,33 @@
         <Title titleName="About me"/>
 
         <figure class="flex mt-8 px-4 items-center sm:flex-col">
-            <img class="w-32 h-32 md:w-48 h-auto rounded-full mx-auto" src="~assets/alex.jpg" alt="Young Alex" width="384"
-                 height="512">
-            <div class="pl-4 text-left  md:text-center md:pt-6 space-y-4">
+            <img alt="Young Alex" class="w-32 h-32 md:w-48 h-auto rounded-full mx-auto"
+                 height="512" src="~assets/alex.jpg"
+                 width="384">
+            <div class="pl-4 text-left md:text-center md:pt-6 space-y-4">
                 <figcaption class="font-medium">
                     <div class="text-black text-lg md:text-2xl font-extrabold tracking-normal">
                         Alexandre Batisse
                     </div>
                     <div class="text-normal md:text-xl">
-                        <span class="text-green-400">Data scientist & Tech lead</span> at HEVA
+                        <span class="font-bold">Data scientist & Tech lead</span> at HEVA
                     </div>
                 </figcaption>
             </div>
         </figure>
-        <div class="text-black text-normal md:text-xl py-4 md:py-8 lg:py-8">
+        <div class="text-black text-normal md:text-lg py-4 md:py-8 lg:py-8">
             <p>
                 My manifold technical interests include software engineering, statistics, and data
                 visualization. I try to cultivate a diverse set of skills. Thus, I feel just as
-                confident writing a data preprocessing script or serving a model in a web server.
+                confident writing a data preprocessing script, serving a model in a web server, or
+                setting up a CI pipeline for unit tests.
             </p>
 
-            <p class="mt-2">Technology watch makes a significant part of my typical day, as I like to be in touch
+            <p class="mt-2">Technology watch makes a significant part of my typical day, as I like
+                to be in touch
                 with the latest Python or analytics tools news.
-                I feel strongly about the FOSS mindset. I try to contribute to the projects I like when I can.
+                I feel strongly about the FOSS mindset. I try to contribute to the projects I like
+                when I can.
             </p>
 
             <p class="mt-2">
@@ -37,7 +41,8 @@
             Get in touch</h2>
         <div
             class="flex grid-flow-col justify-between mx-auto max-w-sm md:max-w-md py-4 md:py-8 lg:py-8">
-            <a class="text-4xl hover:text-green-400 transition" href="mailto:alexandre.batisse@hey.com"
+            <a class="text-4xl hover:text-green-400 transition"
+               href="mailto:alexandre.batisse@hey.com"
                target="_blank">
                 <font-awesome-icon icon="envelope"/>
             </a>
