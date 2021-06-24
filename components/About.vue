@@ -41,16 +41,16 @@
             Get in touch</h2>
         <div
             class="flex grid-flow-col justify-between mx-auto max-w-sm md:max-w-md py-4 md:py-8 lg:py-8">
-            <a class="text-4xl hover:text-green-400 transition"
+            <a class="text-4xl hover:text-green-500 transition"
                href="mailto:alexandre.batisse@hey.com"
                target="_blank">
                 <font-awesome-icon icon="envelope"/>
             </a>
-            <a class="text-4xl hover:text-green-400 transition" href="https://github.com/batalex"
+            <a class="text-4xl hover:text-green-500 transition" href="https://github.com/batalex"
                target="_blank">
                 <font-awesome-icon :icon="['fab', 'github']"/>
             </a>
-            <a class="text-4xl hover:text-green-400 transition" href="https://gitlab.com/abatisse"
+            <a class="text-4xl hover:text-green-500 transition" href="https://gitlab.com/abatisse"
                target="_blank">
                 <font-awesome-icon :icon="['fab', 'gitlab']"/>
             </a>

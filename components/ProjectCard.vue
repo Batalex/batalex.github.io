@@ -5,7 +5,7 @@
             <h3 class="text-black text-lg md:text-xl font-bold tracking-normal">{{
                     projectSpec.title
                 }}</h3>
-            <span class="inline text-sm">{{ projectSpec.year }}</span>
+            <span class="inline text-sm text-green-900">{{ projectSpec.year }}</span>
 
         </div>
         <div class="px-4 pb-4 pt-3 sm:px-6 text-md">
@@ -13,7 +13,7 @@
         </div>
         <div v-if="projectSpec.link" class="px-4 py-4 sm:px-6 text-center">
             <a :href="projectSpec.link"
-               class="text-green-400 external hover:text-green-600"
+               class="text-green-500 external hover:underline"
                target="_blank">{{ projectSpec.name }}</a>
         </div>
 

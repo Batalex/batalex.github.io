@@ -60,7 +60,7 @@
                 class="text-left max-w-7xl mx-auto relative px-4 pt-8 pb-2 sm:px-6 sm:pt-12 lg:pt-16 lg:px-32">
 
                 <p class=" text-base text-gray-400">
-                    Photo by <a class="text-green-400 external hover:text-green-600"
+                    Photo by <a class="text-green-500 external hover:underline"
                                 href="https://unsplash.com/@stayhome"
                                 target="_blank">Alena Stepanova</a>.
                 </p>
