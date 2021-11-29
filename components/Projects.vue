@@ -18,6 +18,16 @@
 
 const projects = [
   {
+    title: 'Effective Pandas Book',
+    content: [
+      'I am honored to be credited as a technical editor in this superb book by Matt Harrison.',
+      'This book presents the best practices for manipulating data with Pandas.'
+    ],
+    year: '2021',
+    link: 'https://store.metasnake.com/effective-pandas-book',
+    name: 'Website'
+  },
+  {
     title: 'Camelia',
     content: [
       'The fastest and easiest way to create videos for your music.',
