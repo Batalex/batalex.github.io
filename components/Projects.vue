@@ -20,7 +20,7 @@ const projects = [
   {
     title: 'Effective Pandas Book',
     content: [
-      'I am honored to be credited as a technical editor in this superb book by Matt Harrison.',
+      'I am honored to be credited as a technical editor in this excellent book by Matt Harrison.',
       'This book presents the best practices for manipulating data with Pandas.'
     ],
     year: '2021',
