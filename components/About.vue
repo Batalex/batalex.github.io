@@ -17,7 +17,7 @@
                 </figcaption>
             </div>
         </figure>
-        <div class="text-black text-normal md:text-lg py-4 md:py-8 lg:py-8">
+        <div class="text-black text-normal max-w-3xl mx-auto md:text-lg py-4 md:py-8 lg:py-8">
             <p>
                 My manifold technical interests include software engineering, statistics, and data
                 visualization. I try to cultivate a diverse set of skills. Thus, I feel just as
@@ -26,10 +26,8 @@
             </p>
 
             <p class="mt-2">Technology watch makes a significant part of my typical day, as I like
-                to be in touch
-                with the latest Python or analytics tools news.
-                I feel strongly about the FOSS mindset. I try to contribute to the projects I like
-                when I can.
+                to be in touch with the latest Python or analytics tools news. I feel strongly about
+                the FOSS mindset, and I try to contribute to the projects I like when I can.
             </p>
 
             <p class="mt-2">

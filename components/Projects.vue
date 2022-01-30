@@ -44,7 +44,7 @@ const projects = [
   },
   {
     title: 'Scikit-learn Sprint of the Decade',
-    content: ['At the end of January 2020, I participated in a 3-days scikit-learn sprint. I met some nice people there and contributed to one of the most important packages in the PyData ecosystem.', 'My contributions were quite diverse: bug fixes, unit tests improvements & refactoring.'],
+    content: ['At the end of January 2020, I participated in a 3-days scikit-learn sprint. I met some lovely people there and contributed to one of the most essential packages in the PyData ecosystem.', 'My contributions were quite diverse: bug fixes, unit tests improvements & refactoring.'],
     year: '2020',
     link: 'https://scikit-learn.fondation-inria.fr/paris-sprint-of-the-decade-happy-birthday-scikit-learn/',
     name: 'Event website'
