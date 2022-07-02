@@ -1,0 +1,24 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-92ddcfcb.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/index.vue"
+    ],
+    "css": [
+      "entry.9ea1f47c.css"
+    ],
+    "assets": [
+      "alex.22f305d1.jpg"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-aa9e4876.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+}
