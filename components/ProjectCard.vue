@@ -21,6 +21,6 @@
 </template>
 <script>
 export default {
-    props: ["projectSpec"],
+    props: ['projectSpec'],
 }
 </script>
