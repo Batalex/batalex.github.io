@@ -1,20 +1,20 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-92ddcfcb.mjs",
+    "file": "entry-8de255af.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
       "pages/index.vue"
     ],
     "css": [
-      "entry.9ea1f47c.css"
+      "entry.b08800e3.css"
     ],
     "assets": [
       "alex.22f305d1.jpg"
     ]
   },
   "pages/index.vue": {
-    "file": "index-aa9e4876.mjs",
+    "file": "index-811e4a35.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
