@@ -1,10 +1,39 @@
 <template>
-  <div>
-    <NuxtLayout>
-      <NuxtPage/>
-    </NuxtLayout>
-  </div>
+    <div>
+        <NuxtLayout>
+            <NuxtPage/>
+        </NuxtLayout>
+    </div>
 </template>
+
+<script setup>
+useHead({
+    title: 'Alex Batisse',
+    htmlAttrs: {
+        lang: 'en'
+    },
+    meta: [
+        { charset: 'utf-8' },
+        {
+            name: 'viewport',
+            content: 'width=device-width, initial-scale=1'
+        },
+        {
+            name: 'Alex Batisse\'s personnal page',
+            content: 'Get to know me and my projects.'
+        }
+    ],
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/svg+xml',
+            href: '/hexagon.svg'
+        }
+    ]
+})
+
+</script>
+
 <style>
 
 html {

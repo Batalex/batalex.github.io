@@ -1,17 +1,6 @@
 module.exports = {
-    mode: 'jit',
-    purge: ['./components/**/*.{vue,js}', './layouts/**/*.vue', './pages/**/*.vue'],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
-        extend: {
-            scale: {
-                '25': '.25',
-            },
-            zIndex: {
-                '-10': '-10'
-            }
-        },
-    },
+    content: ['./components/**/*.{vue,js}', './pages/**/*.vue'],
+    theme: {},
     variants: {
         extend: {},
     },
