@@ -3,19 +3,19 @@
         <Title titleName="Experiences"/>
         <div class="py-8">
             <div v-for="(phase,index) in timeline" :key="index" class="mt-8 md:flex">
-                <div class="w-48 font-bold leading-8 tracking-normal ">
+                <div class="w-48 font-bold text-wenge leading-8 tracking-normal ">
                     <span>{{ phase.startDate }} - </span>
                     <span v-if="index === 0">Current</span>
                     <span v-else>{{ phase.endDate }}</span>
 
                 </div>
                 <div class="md:max-w-lg lg:max-w-xl md:pl-8">
-                    <h3 class="text-xl font-bold pb-2 leading-8">{{ phase.firm }}</h3>
+                    <h3 class="text-xl text-olive-drab font-bold pb-2 leading-8">{{ phase.firm }}</h3>
                     <div v-for="(sub,index) in phase.subPhases" :key="index"
                          class="text-normal md:text-lg"
                          v-bind:class="[index != 0  ? 'mt-4' : '']">
-                        <h4 class="font-extrabold">{{ sub.title }}</h4>
-                        <p>{{ sub.content }}</p>
+                        <h4 class="font-extrabold text-jet">{{ sub.title }}</h4>
+                        <p class="text-jet">{{ sub.content }}</p>
                     </div>
 
                 </div>
@@ -28,10 +28,10 @@
 const timeline = [
     {
         firm: 'HEVA',
+        location: "Lyon (FR)",
         startDate: 'Jan. 2019',
         endDate: undefined,
         title: 'Data Scientist',
-        content: 'job content',
         subPhases: [
             {
                 title: 'Data Scientist & Tech lead',
@@ -49,10 +49,10 @@ const timeline = [
     },
     {
         firm: 'Worldline',
+        location: "Lyon (FR)",
         startDate: 'Jan. 2017',
         endDate: 'Dec. 2018',
         title: 'Software Engineer',
-        content: 'job content',
         subPhases: [
             {
                 title: 'Software Engineer',
