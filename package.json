@@ -4,13 +4,15 @@
         "build": "nuxt build",
         "dev": "nuxt dev",
         "generate": "nuxt generate",
-        "preview": "nuxt preview"
+        "preview": "nuxt preview",
+        "deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
     },
     "devDependencies": {
         "@heroicons/vue": "^1.0.6",
         "@nuxtjs/tailwindcss": "^5.1.2",
         "@tailwindcss/typography": "^0.5.2",
-        "nuxt": "3.0.0-rc.4"
+        "nuxt": "3.0.0-rc.8",
+        "push-dir": "^0.4.1"
     },
     "dependencies": {}
 }
