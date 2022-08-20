@@ -1,6 +1,8 @@
 <template>
     <div class="mt-8">
-        <Title titleName="Projects"/>
+        <div class="md:max-w-3xl mx-auto">
+            <Title titleName="Projects"/>
+        </div>
         <div
             class="mt-16 flex lg:-mx-32 lg:px-2 flex-row gap-2 sm:gap-4 flex-wrap justify-center align-middle">
             <ProjectCard
@@ -18,7 +20,7 @@ const projects = [
     {
         title: 'Twitter campaign',
         content: [
-            'I co-created a Twitter bot to go with a music album release.',
+            'I co-created a Twitter bot for a music album release promotional campaign.',
             'Over five days we generated and served over 4,000 short videos and were among the top trending topics worldwide.'
         ],
         year: '2022',

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <figure class="flex mt-8 px-4 items-center sm:flex-col">
+        <figure class="flex px-4 items-center sm:flex-col">
             <img alt="Young Alex" class="w-32 h-32 md:w-48 h-auto rounded-full mx-auto"
                  height="512" src="~assets/alex.jpg"
                  width="384">

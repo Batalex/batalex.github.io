@@ -1,7 +1,7 @@
 <template>
-    <div class="mt-8">
+    <div class="mt-8 mx-auto md:max-w-3xl">
         <Title titleName="Experiences"/>
-        <div class="py-8">
+        <div class="py-8 mx-auto">
             <div v-for="(phase,index) in timeline" :key="index" class="mt-8 md:flex">
                 <div class="w-48 font-bold text-wenge leading-8 tracking-normal ">
                     <span>{{ phase.startDate }} - </span>
