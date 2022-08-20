@@ -4,7 +4,7 @@
     "src": "assets/alex.jpg"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "_nuxt/entry.229c2552.js",
+    "file": "_nuxt/entry.39266244.js",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -18,7 +18,7 @@
     ]
   },
   "virtual:nuxt:/home/runner/work/batalex.github.io/batalex.github.io/.nuxt/error-component.mjs": {
-    "file": "_nuxt/ef239c25.js",
+    "file": "_nuxt/4190987f.js",
     "src": "virtual:nuxt:/home/runner/work/batalex.github.io/batalex.github.io/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -30,7 +30,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "_nuxt/4189c39b.js",
+    "file": "_nuxt/32efc01c.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -41,7 +41,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "_nuxt/218c59ee.js",
+    "file": "_nuxt/ddade41e.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
