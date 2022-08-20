@@ -58,7 +58,7 @@ onMounted(() => {
             if (x % wl === 0) {
                 a = b;
                 b = rand();
-                y = h / 2 + a * amp;
+                y = h / 2 + a * amp * x;
             } else {
                 y = h / 2 + interpolate(a, b, (x % wl) / wl) * (amp*x);
             }
