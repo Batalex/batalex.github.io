@@ -1,25 +1,32 @@
 <template>
-    <div class="mt-8 mx-auto md:max-w-3xl">
+    <div class="mt-8 md:max-w-4xl">
         <Title titleName="Experiences"/>
-        <div class="py-8 mx-auto">
-            <div v-for="(phase,index) in timeline" :key="index" class="mt-8 md:flex">
-                <div class="w-48 font-bold text-wenge leading-8 tracking-normal ">
-                    <span>{{ phase.startDate }} - </span>
-                    <span v-if="index === 0">Current</span>
-                    <span v-else>{{ phase.endDate }}</span>
+        <p class="mt-6 text-lg text-olive-drab">
+            All of my professional work, collected in chronological order.</p>
+        <div class="py-8 ">
+            <div class="md:border-l md:border-laurel-green md:pl-6">
+                <div v-for="(phase,index) in timeline" :key="index" class="mt-8 md:flex">
+                    <div class="w-48 font-bold text-wenge leading-8 tracking-normal ">
+                        <span>{{ phase.startDate }} - </span>
+                        <span v-if="index === 0">Current</span>
+                        <span v-else>{{ phase.endDate }}</span>
 
-                </div>
-                <div class="md:max-w-lg lg:max-w-xl md:pl-8">
-                    <h3 class="text-xl text-olive-drab font-bold pb-2 leading-8">{{ phase.firm }}</h3>
-                    <div v-for="(sub,index) in phase.subPhases" :key="index"
-                         class="text-normal md:text-lg"
-                         v-bind:class="[index != 0  ? 'mt-4' : '']">
-                        <h4 class="font-extrabold text-jet">{{ sub.title }}</h4>
-                        <p class="text-jet">{{ sub.content }}</p>
                     </div>
+                    <div class="md:max-w-lg lg:max-w-2xl md:pl-8">
+                        <h3 class="text-xl text-olive-drab font-bold pb-2 leading-8">{{
+                                phase.firm
+                            }}</h3>
+                        <div v-for="(sub,index) in phase.subPhases" :key="index"
+                             class="text-normal md:text-lg"
+                             v-bind:class="[index != 0  ? 'mt-4' : '']">
+                            <h4 class="font-extrabold text-jet">{{ sub.title }}</h4>
+                            <p class="text-olive-drab text-base">{{ sub.content }}</p>
+                        </div>
 
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </template>
@@ -29,7 +36,7 @@ const timeline = [
     {
         firm: 'HEVA',
         location: "Lyon (FR)",
-        startDate: 'Jan. 2019',
+        startDate: '2019',
         endDate: undefined,
         title: 'Data Scientist',
         subPhases: [
@@ -50,8 +57,8 @@ const timeline = [
     {
         firm: 'Worldline',
         location: "Lyon (FR)",
-        startDate: 'Jan. 2017',
-        endDate: 'Dec. 2018',
+        startDate: '2017',
+        endDate: '2018',
         title: 'Software Engineer',
         subPhases: [
             {
@@ -72,7 +79,7 @@ const timeline = [
 ]
 
 export default {
-    data () {
+    data() {
         return {
             timeline
         }

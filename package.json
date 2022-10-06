@@ -8,8 +8,11 @@
         "deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
     },
     "devDependencies": {
+        "@heroicons/vue": "^2.0.12",
         "@nuxtjs/tailwindcss": "^5.1.2",
         "@tailwindcss/typography": "^0.5.2",
+        "eslint": "^8.24.0",
+        "eslint-plugin-vue": "^9.6.0",
         "nuxt": "^3.0.0-rc.11",
         "push-dir": "^0.4.1"
     },
