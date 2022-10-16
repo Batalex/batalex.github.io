@@ -52,7 +52,7 @@
                                         I am a data
                                         scientist & software engineer living in Lyon (FR)</h2>
                                     <div
-                                        class="mt-6 space-y-7 text-lg text-olive-drab dark:text-zinc-400">
+                                        class="mt-6 space-y-7 text-lg text-olive-drab">
                                         <p>My manifold technical interests include software
                                             engineering, statistics, and data
                                             visualization.
@@ -71,7 +71,6 @@
                                             2017.</p>
                                     </div>
                                 </div>
-
 
                                 <div class="z-20 mt-4 lg:pl-20">
                                     <ul role="list">
