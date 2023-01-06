@@ -1,7 +1,7 @@
 <template>
     <div class="mt-8">
         <div class="md:max-w-3xl">
-            <Title titleName="Projects"/>
+            <TitleSection titleName="Projects"/>
             <p class="mt-6 text-lg text-olive-drab">
                 I have worked on many little projects over the years but these are the ones that I’m most proud of.
                 I hope this list will continue to grow in the future!
@@ -37,11 +37,12 @@
 </template>
 <script setup>
 import {LinkIcon} from "@heroicons/vue/24/solid";
+import TitleSection from "./TitleSection.vue";
 
 const projects = [
     {
         title: "To be announced",
-        content: "This is something I have been working on for quite some time. I hope I can release it by the end of the year!",
+        content: "This is something I have been working on for quite some time. I hope I can release it soon!",
         short: "",
         link: "#",
         illustration: "❓"

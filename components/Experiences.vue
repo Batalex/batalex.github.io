@@ -1,6 +1,6 @@
 <template>
     <div class="mt-8 md:max-w-4xl">
-        <Title titleName="Experiences"/>
+        <TitleSection titleName="Experiences"/>
         <p class="mt-6 text-lg text-olive-drab">
             All of my professional work, collected in chronological order.</p>
         <div class="py-8 ">
