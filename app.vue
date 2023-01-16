@@ -10,10 +10,10 @@
                                 <div class="lg:pl-20">
                                     <div class="px-2.5 lg:max-w-none"
                                     >
-                                        <div class="relative">
+                                        <div class="relative flex justify-center lg:justify-start">
                                             <div class="absolute z-0 hidden md:block">
                                                 <svg id="blobSvg"
-                                                     class="h-[300px] -translate-x-20 -translate-y-20"
+                                                     class="h-[300px] lg:-translate-x-20 -translate-y-20"
                                                      version="1.1"
                                                      viewBox="0 0 500 500"
                                                      xmlns="http://www.w3.org/2000/svg"
@@ -35,9 +35,9 @@
                                                 </svg>
                                             </div>
                                             <img alt=""
-                                                 class="aspect-square rotate-3 rounded-2xl"
+                                                 class=" rotate-3 rounded-2xl"
                                                  loading="lazy"
-                                                 src="~assets/alex.jpg"
+                                                 src="~assets/alex.jpeg"
                                                  style="color: transparent;"
                                                  width="150">
                                         </div>
