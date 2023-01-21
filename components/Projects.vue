@@ -43,9 +43,16 @@ const projects = [
     {
         title: "To be announced",
         content: "This is something I have been working on for quite some time. I hope I can release it soon!",
-        short: "",
-        link: "#",
+        short: "fosstodon.org",
+        link: "https://fosstodon.org/@batalex/109671714126269564",
         illustration: "❓"
+    },
+    {
+        title: "pyOpenSci reviewer",
+        content: "I am proud to have joined the community that supports free and open Python tools for processing scientific data.",
+        short: "pyopensci.org",
+        link: "#",
+        illustration: "✔"
     },
     {
         title: 'Twitter campaign',
