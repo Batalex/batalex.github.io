@@ -1,40 +1,46 @@
 <div class="mt-8 md:max-w-4xl">
-  <h1
-    class="text-4xl text-olive-drab font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
-  >
-    Experiences
-  </h1>
-  <p class="mt-6 text-lg text-olive-drab">
-    All of my professional work, collected in chronological order.
-  </p>
-  <div class="py-8">
-    <div class="md:border-l md:border-laurel-green md:pl-6">
-      {% for phase in timeline %}
-      <div class="mt-8 md:flex">
-        <div class="w-48 font-bold text-wenge leading-8 tracking-normal">
-          <span>{{ phase.startDate }} - </span>
-          {% if loop.index0 == 0 %}
-          <span>Current</span>
-          {% else %}
-          <span v-else>{{ phase.endDate }}</span>
-          {% endif %}
+    <h1
+        class="text-4xl text-olive-drab font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
+    >
+        Experiences
+    </h1>
+    <p class="mt-6 text-lg text-olive-drab">
+        All of my professional work, collected in chronological order.
+    </p>
+    <div class="py-8">
+        <div class="md:border-l md:border-laurel-green md:pl-6">
+            {% for phase in timeline %}
+            <div class="mt-8 md:flex">
+                <div
+                    class="w-48 font-bold text-wenge leading-8 tracking-normal"
+                >
+                    <span>{{ phase.startDate }} - </span>
+                    {% if loop.index0 == 0 %}
+                    <span>Current</span>
+                    {% else %}
+                    <span v-else>{{ phase.endDate }}</span>
+                    {% endif %}
+                </div>
+                <div class="md:max-w-lg lg:max-w-2xl md:pl-8">
+                    <h3
+                        class="text-xl text-olive-drab font-bold pb-2 leading-8"
+                    >
+                        {{ phase.firm }}
+                    </h3>
+                    {% for sub in phase.subPhases %}
+                    <div
+                        class="text-normal md:text-lg"
+                        v-bind:class="[index != 0  ? 'mt-4' : '']"
+                    >
+                        <h4 class="font-extrabold text-jet">{{ sub.title }}</h4>
+                        <p class="text-olive-drab text-base">
+                            {{ sub.content }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
         </div>
-        <div class="md:max-w-lg lg:max-w-2xl md:pl-8">
-          <h3 class="text-xl text-olive-drab font-bold pb-2 leading-8">
-            {{ phase.firm }}
-          </h3>
-          {% for sub in phase.subPhases %}
-          <div
-            class="text-normal md:text-lg"
-            v-bind:class="[index != 0  ? 'mt-4' : '']"
-          >
-            <h4 class="font-extrabold text-jet">{{ sub.title }}</h4>
-            <p class="text-olive-drab text-base">{{ sub.content }}</p>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      {% endfor %}
     </div>
-  </div>
 </div>

@@ -1,176 +1,200 @@
 {% extends "base.html" %} {% block content %}
 
 <main>
-  <div class="sm:px-8 mt-16 sm:mt-32">
-    <div class="mx-auto max-w-7xl lg:px-8">
-      <div class="relative px-4 sm:px-8 lg:px-12">
-        <div class="mx-auto max-w-2xl lg:max-w-5xl">
-          <div
-            class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12"
-          >
-            <div class="lg:pl-20">
-              <div class="px-2.5 lg:max-w-none">
-                <div class="relative flex justify-center lg:justify-start">
-                  <div class="absolute z-0 hidden md:block">
-                    <svg
-                      id="blobSvg"
-                      class="h-[300px] lg:-translate-x-20 -translate-y-20"
-                      version="1.1"
-                      viewBox="0 0 500 500"
-                      xmlns="http://www.w3.org/2000/svg"
+    <div class="sm:px-8 mt-16 sm:mt-32">
+        <div class="mx-auto max-w-7xl lg:px-8">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+                <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                    <div
+                        class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12"
                     >
-                      <defs>
-                        <linearGradient
-                          id="gradient"
-                          x1="0%"
-                          x2="0%"
-                          y1="0%"
-                          y2="100%"
-                        >
-                          <stop offset="0%" style="stop-color: #4e4b42"></stop>
-                          <stop
-                            offset="100%"
-                            style="stop-color: #363636"
-                          ></stop>
-                        </linearGradient>
-                      </defs>
-                      <path id="blob" fill="url(#gradient)">
-                        <animate
-                          attributeName="d"
-                          dur="25000ms"
-                          repeatCount="indefinite"
-                          values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"
-                        ></animate>
-                      </path>
-                    </svg>
-                  </div>
-                  <img
-                    alt=""
-                    class="rotate-3 rounded-2xl"
-                    loading="lazy"
-                    src="assets/alex.jpeg"
-                    style="color: transparent"
-                    width="150"
-                  />
+                        <div class="lg:pl-20">
+                            <div class="px-2.5 lg:max-w-none">
+                                <div
+                                    class="relative flex justify-center lg:justify-start"
+                                >
+                                    <div class="absolute z-0 hidden md:block">
+                                        <svg
+                                            id="blobSvg"
+                                            class="h-[300px] lg:-translate-x-20 -translate-y-20"
+                                            version="1.1"
+                                            viewBox="0 0 500 500"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <defs>
+                                                <linearGradient
+                                                    id="gradient"
+                                                    x1="0%"
+                                                    x2="0%"
+                                                    y1="0%"
+                                                    y2="100%"
+                                                >
+                                                    <stop
+                                                        offset="0%"
+                                                        style="
+                                                            stop-color: #4e4b42;
+                                                        "
+                                                    ></stop>
+                                                    <stop
+                                                        offset="100%"
+                                                        style="
+                                                            stop-color: #363636;
+                                                        "
+                                                    ></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path
+                                                id="blob"
+                                                fill="url(#gradient)"
+                                            >
+                                                <animate
+                                                    attributeName="d"
+                                                    dur="25000ms"
+                                                    repeatCount="indefinite"
+                                                    values="M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;"
+                                                ></animate>
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <img
+                                        alt=""
+                                        class="rotate-3 rounded-2xl"
+                                        loading="lazy"
+                                        src="assets/alex.jpeg"
+                                        style="color: transparent"
+                                        width="150"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:order-first lg:row-span-2">
+                            <h1
+                                class="text-4xl font-bold tracking-tight text-olive-drab sm:text-5xl"
+                            >
+                                Hi, I am
+                                <span class="font-black text-jet">Alex</span>.
+                            </h1>
+                            <h2
+                                class="text-3xl font-bold tracking-tight text-olive-drab sm:text-4xl"
+                            >
+                                I am a data scientist & software engineer living
+                                in Lyon (FR)
+                            </h2>
+                            <div class="mt-6 space-y-7 text-lg text-olive-drab">
+                                <p>
+                                    My manifold technical interests include
+                                    software engineering, statistics, and data
+                                    visualization. I try to cultivate a diverse
+                                    set of skills. Thus, I feel just as
+                                    confident writing a data preprocessing
+                                    script, serving a model in a web server, or
+                                    setting up a CI pipeline for unit tests.
+                                </p>
+                                <p>
+                                    Technology watch makes a significant part of
+                                    my typical day, as I like to be in touch
+                                    with the latest Python or analytics tools
+                                    news. I feel strongly about the FOSS mindset
+                                    and contribute to the projects I like when I
+                                    can.
+                                </p>
+                                <p>
+                                    I majored with honors (M.Sc.Eng) in
+                                    telecommunications in 2017.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="z-20 mt-4 lg:pl-20">
+                            <ul role="list">
+                                {% for link in links %}
+                                <li class="flex mt-2">
+                                    <a
+                                        href="{{link.href}}"
+                                        class="group flex font-medium text-olive-drab transition hover:text-jet"
+                                        target="_blank"
+                                    >
+                                        <svg
+                                            viewBox="{{link.vbox}}"
+                                            aria-hidden="true"
+                                            class="h-6 w-6 flex-none fill-wenge transition group-hover:fill-jet"
+                                        >
+                                            <path
+                                                d="{{link.path_d}}"
+                                                clip-rule="evenodd"
+                                                fill-rule="evenodd"
+                                            ></path>
+                                        </svg>
+                                        <span class="ml-4 font-normal"
+                                            >{{ link.text }}</span
+                                        >
+                                    </a>
+                                </li>
+                                {% endfor %}
+                                <div
+                                    class="mt-8 border-t border-laurel-green pt-8"
+                                ></div>
+                                <li class="flex">
+                                    <a
+                                        class="group flex font-medium text-olive-drab transition hover:text-jet"
+                                        href="mailto:{{ mail.mail }}"
+                                    >
+                                        <svg
+                                            viewBox="{{mail.vbox}}"
+                                            aria-hidden="true"
+                                            class="h-6 w-6 flex-none fill-wenge transition group-hover:fill-jet"
+                                        >
+                                            <path
+                                                d="{{mail.path_d}}"
+                                                clip-rule="evenodd"
+                                                fill-rule="evenodd"
+                                            ></path>
+                                            <path
+                                                d="{{mail.path_d2}}"
+                                                clip-rule="evenodd"
+                                                fill-rule="evenodd"
+                                            ></path>
+                                        </svg>
+                                        <span class="ml-4 font-normal"
+                                            >{{mail.mail}}</span
+                                        ></a
+                                    >
+                                </li>
+                            </ul>
+                            <div class="mt-6 flex">
+                                <a
+                                    class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-transparent border border-davys-grey font-medium text-olive-drab hover:bg-wenge hover:text-pastel-gray active:bg-wenge active:text-pastel-gray group mt-6 mx-auto lg:w-full"
+                                    href="/assets/Resume_BATISSE.pdf"
+                                    target="_blank"
+                                    >Download CV
+
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        aria-hidden="true"
+                                        class="fa-solid fa-download h-4 w-4 -translate-y-0.5 stroke-wenge transition group-active:stroke-pastel-gray group-hover:stroke-pastel-gray group-hover:translate-y-0"
+                                    >
+                                        <path
+                                            d="M12 2.25a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3a.75.75 0 0 1 .75-.75Zm-9 13.5a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75Z"
+                                            clip-rule="evenodd"
+                                            fill-rule="evenodd"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="lg:order-first lg:row-span-2">
-              <h1
-                class="text-4xl font-bold tracking-tight text-olive-drab sm:text-5xl"
-              >
-                Hi, I am <span class="font-black text-jet">Alex</span>.
-              </h1>
-              <h2
-                class="text-3xl font-bold tracking-tight text-olive-drab sm:text-4xl"
-              >
-                I am a data scientist & software engineer living in Lyon (FR)
-              </h2>
-              <div class="mt-6 space-y-7 text-lg text-olive-drab">
-                <p>
-                  My manifold technical interests include software engineering,
-                  statistics, and data visualization. I try to cultivate a
-                  diverse set of skills. Thus, I feel just as confident writing
-                  a data preprocessing script, serving a model in a web server,
-                  or setting up a CI pipeline for unit tests.
-                </p>
-                <p>
-                  Technology watch makes a significant part of my typical day,
-                  as I like to be in touch with the latest Python or analytics
-                  tools news. I feel strongly about the FOSS mindset and
-                  contribute to the projects I like when I can.
-                </p>
-                <p>
-                  I majored with honors (M.Sc.Eng) in telecommunications in
-                  2017.
-                </p>
-              </div>
-            </div>
-
-            <div class="z-20 mt-4 lg:pl-20">
-              <ul role="list">
-                {% for link in links %}
-                <li class="flex mt-2">
-                  <a
-                    href="{{link.href}}"
-                    class="group flex font-medium text-olive-drab transition hover:text-jet"
-                    target="_blank"
-                  >
-                    <svg
-                      viewBox="{{link.vbox}}"
-                      aria-hidden="true"
-                      class="h-6 w-6 flex-none fill-wenge transition group-hover:fill-jet"
-                    >
-                      <path
-                        d="{{link.path_d}}"
-                        clip-rule="evenodd"
-                        fill-rule="evenodd"
-                      ></path>
-                    </svg>
-                    <span class="ml-4 font-normal">{{ link.text }}</span>
-                  </a>
-                </li>
-                {% endfor %}
-                <div class="mt-8 border-t border-laurel-green pt-8"></div>
-                <li class="flex">
-                  <a
-                    class="group flex font-medium text-olive-drab transition hover:text-jet"
-                    href="mailto:{{ mail.mail }}"
-                  >
-                    <svg
-                      viewBox="{{mail.vbox}}"
-                      aria-hidden="true"
-                      class="h-6 w-6 flex-none fill-wenge transition group-hover:fill-jet"
-                    >
-                      <path
-                        d="{{mail.path_d}}"
-                        clip-rule="evenodd"
-                        fill-rule="evenodd"
-                      ></path>
-                      <path
-                        d="{{mail.path_d2}}"
-                        clip-rule="evenodd"
-                        fill-rule="evenodd"
-                      ></path>
-                    </svg>
-                    <span class="ml-4 font-normal">{{mail.mail}}</span></a
-                  >
-                </li>
-              </ul>
-              <div class="mt-6 flex">
-                <a
-                  class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-transparent border border-davys-grey font-medium text-olive-drab hover:bg-wenge hover:text-pastel-gray active:bg-wenge active:text-pastel-gray group mt-6 mx-auto lg:w-full"
-                  href="/assets/Resume_BATISSE.pdf"
-                  target="_blank"
-                  >Download CV
-
-                  <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    class="fa-solid fa-download h-4 w-4 -translate-y-0.5 stroke-wenge transition group-active:stroke-pastel-gray group-hover:stroke-pastel-gray group-hover:translate-y-0"
-                  >
-                    <path
-                      d="M12 2.25a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3a.75.75 0 0 1 .75-.75Zm-9 13.5a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75Z"
-                      clip-rule="evenodd"
-                      fill-rule="evenodd"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </main>
 
 <div class="relative bg-pastel-gray overflow-hidden">
-  <div
-    class="max-w-7xl mx-auto relative px-4 py-8 sm:px-6 sm:pt-20 lg:pt-16 lg:px-32"
-  >
-    {% include 'experiences.html' %} {% include 'projects.html' %}
-  </div>
+    <div
+        class="max-w-7xl mx-auto relative px-4 py-8 sm:px-6 sm:pt-20 lg:pt-16 lg:px-32"
+    >
+        {% include 'experiences.html' %} {% include 'projects.html' %}
+    </div>
 </div>
 
 {% endblock content %}

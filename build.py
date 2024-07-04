@@ -36,20 +36,34 @@ mail = {
 
 timeline = [
     {
+        "firm": "Canonical",
+        "location": "Remote",
+        "startDate": "2024",
+        "endDate": None,
+        "title": "Software Engineer",
+        "subPhases": [
+            {
+                "title": "Software Engineer - Data Platform",
+                "content": "I am part of the Big Data team, where I work on charmed operators to provide distributed system management to open source technologies.",
+                "startDate": "fev. 2024",
+            },
+        ],
+    },
+    {
         "firm": "HEVA",
         "location": "Lyon (FR)",
         "startDate": "2019",
-        "endDate": None,
+        "endDate": "2024",
         "title": "Data Scientist",
         "subPhases": [
             {
                 "title": "Data Scientist & Tech lead",
-                "content": "I have taken on some additional responsibilities. Nowadays, I provide technical support for the entire firm and manage the evolution of our technical stack.",
+                "content": "I took on some additional responsibilities. I provided technical support for the entire firm and managed the evolution of our technical stack.",
                 "startDate": "Nov. 2020",
             },
             {
                 "title": "Data Scientist",
-                "content": "My responsibilities are twofold. First, I conduct our clients' (pharmaceutical industry) studies on national health claim data. This work involves data management, statistical modeling, and reporting with the PyData stack. Secondly, I tend to my team's internal tools as a maintainer and Python developer.",
+                "content": "My responsibilities were twofold. First, I conducted our clients' (pharmaceutical industry) studies on national health claim data. This work involved data management, statistical modeling, and reporting with the PyData stack. Secondly, I tended to my team's internal tools as a maintainer and Python developer.",
                 "startDate": "Jan. 2019",
             },
         ],

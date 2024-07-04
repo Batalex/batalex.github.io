@@ -1,6 +1,7 @@
 import nox
+import datetime
 
-# nox.options.sessions = []
+nox.options.sessions = ["css", "generate", "serve"]
 
 
 @nox.session
@@ -28,3 +29,16 @@ def generate(session):
 @nox.session
 def serve(session):
     session.run("python", "-m", "http.server", "--directory", "output")
+
+
+@nox.session
+def publish(session):
+    session.install("ghp-import")
+    session.run(
+        "ghp-import",
+        "-b",
+        "gh-pages",
+        "-m",
+        f"Publish site on {datetime.date.today().isoformat()}",
+        "output",
+    )
