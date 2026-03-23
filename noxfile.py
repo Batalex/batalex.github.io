@@ -7,7 +7,6 @@ nox.options.sessions = ["css", "generate", "serve"]
 @nox.session
 def css(session):
     session.run(
-        "npx",
         "tailwindcss",
         "-i",
         "./input.css",

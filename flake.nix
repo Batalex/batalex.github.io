@@ -16,7 +16,7 @@
   in {
     devShells = forEachSupportedSystem ({pkgs}: {
       default = pkgs.mkShell {
-        packages = with pkgs; [nodejs_22 nodePackages_latest.prettier];
+        packages = with pkgs; [nodejs_24 nodePackages_latest.prettier tailwindcss];
       };
     });
   };
