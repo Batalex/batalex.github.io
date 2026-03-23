@@ -43,8 +43,8 @@ timeline = [
         "title": "Software Engineer",
         "subPhases": [
             {
-                "title": "Software Engineer - Data Platform",
-                "content": "I am part of the Big Data team, where I work on charmed operators to provide distributed system management to open source technologies.",
+                "title": "Software Engineer - Data Platform & AI",
+                "content": "I am part of the Data Platform & AI team, where I work on technologies such as Kafka, ZooKeeper or Spark, from packaging the sources all the way up to charmed operators to automate their deployment, integration & lifecycle management.",
                 "startDate": "fev. 2024",
             },
         ],
@@ -63,7 +63,7 @@ timeline = [
             },
             {
                 "title": "Data Scientist",
-                "content": "My responsibilities were twofold. First, I conducted our clients' (pharmaceutical industry) studies on national health claim data. This work involved data management, statistical modeling, and reporting with the PyData stack. Secondly, I tended to my team's internal tools as a maintainer and Python developer.",
+                "content": "My responsibilities were twofold. I performed analyses on national health claim data for our clients in the pharmaceutical industry. This work involved data management, statistical modeling, and reporting with the PyData stack. As a Python developer and maintainer, I also took care of my team's internal tools.",
                 "startDate": "Jan. 2019",
             },
         ],
@@ -91,8 +91,8 @@ timeline = [
 
 projects = [
     {
-        "title": "pyOpenSci editor",
-        "content": "I am proud to have joined the community that supports free and open Python tools for processing scientific data.",
+        "title": "pyOpenSci",
+        "content": "I am an emiritus editor-in-chief of the community that promotes open-source, free Python tools for scientific data processing.",
         "link": "https://pyopensci.org",
         "short": "pyopensci.org",
         "illustration": "✔",
@@ -113,9 +113,9 @@ projects = [
     },
     {
         "title": "Camelia",
-        "content": "I co-created Camelia, a platform combining audio analysis, video generation, and background workers to allow music artists to create videos quickly.",
-        "link": "https://www.camelia.studio/",
-        "short": "camelia.studio",
+        "content": "I co-created Camelia (discontinued), a platform combining audio analysis, video generation, and background workers to allow music artists to create videos quickly.",
+        "link": "#",
+        "short": "",
         "illustration": "🎵",
     },
     {
